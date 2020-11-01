@@ -15,3 +15,5 @@ ng build
 # release stage
 FROM nginx:latest AS release
 COPY --from=dev src/dist/ /usr/share/nginx/html/
+
+# Esta imagen pesa 138 MB
