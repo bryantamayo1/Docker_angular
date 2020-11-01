@@ -31,4 +31,4 @@ COPY --from=builder /ng-app/dist /usr/share/nginx/html
 
 CMD ["nginx", "-g", "daemon off;"]
 
-# Esta imagen pesa 17,9 MB
+# Esta imagen pesa  17,9 MB
